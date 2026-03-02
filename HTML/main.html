@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Images/favicon.png" type="icon/png">
+    <title>EduTribe || Find Your Learning Tribe</title>
+    <link href="../Bootstrap_css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Baskervville:ital,wght@0,400..700;1,400..700&family=Castoro:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Ovo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/main.css">
+    
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../HTML/main.html"  class="logo" id="mainLogo">
+                <div class="logo-img">
+                    <img src="../Images/logo1.svg.svg" alt="EduTribe Logo">
+                </div>
+                <!-- <span>EduTribe</span> -->
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="../HTML/main.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#programs" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#career" class="nav-link">Career Opportunities</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container-lg" id="mainContent">
+        <section class="hero container-lg ">
+            <div class="hero-content">
+                <h1 class="hero-heading h1">Find Your <span>Learning Tribe</span></h1>
+                <p class="hero-text">Join our community of learners and discover courses that will help you grow your skills and advance your career. Connect with like-minded individuals and find your learning tribe.</p>
+                <a href="#programs" class="btn">Explore Courses</a>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <!-- Using a different image source that will definitely work -->
+                    <img src="../Images/last new logo.png" class="img-fluid" alt="Students learning together">
+                </div>
+            </div>
+        </section>
+        
+        <!-- <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-heading">Find Your <span>Learning Tribe</span></h1>
+                <p class="hero-text">Join our community of learners and discover courses that will help you grow your skills and advance your career. Connect with like-minded individuals and find your learning tribe.</p>
+                <a href="#" class="btn">Explore Courses</a>
+            </div>
+
+            
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img src="../Images/logo2.svg.svg" alt="">
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Courses Section -->
+        <h2 class="section-title-programs" id="programs">Our Program Categories</h2>
+        
+        <div class="course-item">
+            <div class="course-image">
+                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="img-fluid" alt="Tech Courses">
+            </div>
+            <div class="course-content">
+                <h3 class="course-title">Tech Courses</h3>
+                <p class="course-desc">Our tech courses cover the most in-demand skills in the industry. From web development to data science, cybersecurity to cloud computing, we offer comprehensive programs designed to launch your tech career. Learn from industry experts and work on real-world projects.</p>
+                <button class="btn view-courses-btn" data-course-type="tech">View Available Courses</button>
+            </div>
+        </div>
+        
+        <div class="course-item">
+            <div class="course-image">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"  class="img-fluid" alt="Non-Tech Courses">
+            </div>
+            <div class="course-content">
+                <h3 class="course-title">Non-Tech Courses</h3>
+                <p class="course-desc">Not interested in coding? We offer various non-tech programs that are equally valuable in today's job market. Explore courses in digital marketing, project management, UI/UX design, business analysis, and more. Develop skills that complement technical teams and drive business success.</p>
+                <button class="btn view-courses-btn" data-course-type="non-tech">View Available Courses</button>
+            </div>
+        </div>
+        
+        <div class="course-item">
+            <div class="course-image">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="img-fluid" alt="Internships">
+            </div>
+            <div class="course-content">
+                <h3 class="course-title">Graduate Internships & Opportunities</h3>
+                <p class="course-desc">Jumpstart your career with our internship programs designed for recent graduates. Gain practical experience, build your professional network, and enhance your resume. We partner with top companies to provide meaningful internship opportunities that often lead to full-time positions.</p>
+                <a href="https://t.me/+AkeVWZn0l2tkMmRk" target="_blank"><button class="btn" data-course="Graduate Internships">Enroll Now</button></a>
+            </div>
+        </div>
+
+        <!-- Tutors Section -->
+        <section class="tutors-section">
+            <h2 class="section-title">Meet Our Tutors</h2>
+            <div class="tutors-carousel">
+                <div class="tutor-card">
+                    <div class="tutor-image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"  class="img-fluid" alt="Sarah Johnson">
+                    </div>
+                    <div class="tutor-info">
+                        <h3 class="tutor-name">Sarah Johnson</h3>
+                        <p class="tutor-subject">Web Development</p>
+                        <p class="tutor-courses">HTML, CSS, JavaScript, React, Node.js</p>
+                    </div>
+                </div>
+                
+                <div class="tutor-card">
+                    <div class="tutor-image">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80" class="img-fluid" alt="Emily Chen">
+                    </div>
+                    <div class="tutor-info">
+                        <h3 class="tutor-name">Emily Chen</h3>
+                        <p class="tutor-subject">Data Science</p>
+                        <p class="tutor-courses">Python, R, SQL, Machine Learning, Data Visualization</p>
+                    </div>
+                </div>
+
+                <div class="tutor-card">
+                    <div class="tutor-image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80" alt="Sarah Johnson">
+                    </div>
+                    <div class="tutor-info">
+                        <h3 class="tutor-name">Sarah Johnson</h3>
+                        <p class="tutor-subject">Web Development</p>
+                        <p class="tutor-courses">HTML, CSS, JavaScript, React, Node.js</p>
+                    </div>
+                </div>
+                
+                <div class="tutor-card">
+                    <div class="tutor-image">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80" class="img-fluid" alt="Emily Chen">
+                    </div>
+                    <div class="tutor-info">
+                        <h3 class="tutor-name">Emily Chen</h3>
+                        <p class="tutor-subject">Data Science</p>
+                        <p class="tutor-courses">Python, R, SQL, Machine Learning, Data Visualization</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-controls">
+                <button class="carousel-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <!-- Opportunities Section -->
+        <h2 class="section-title-card" id="career">Career Opportunities</h2>
+        <div class="opportunities">
+            <div class="opportunity-card">
+                <h3 class="opportunity-title">Graduate Opportunities</h3>
+                <ul class="opportunity-list">
+                    <li>Software Developer Roles</li>
+                    <li>Data Analyst Positions</li>
+                    <li>UX/UI Designer Jobs</li>
+                    <li>IT Support Specialist</li>
+                    <li>Cloud Engineer Roles</li>
+                    <li>Tech Startup Opportunities</li>
+                </ul>
+            </div>
+            <div class="opportunity-card">
+                <h3 class="opportunity-title">Internship Programs</h3>
+                <ul class="opportunity-list">
+                    <li>Summer Tech Internships</li>
+                    <li>Part-time Developer Roles</li>
+                    <li>Research Assistant Positions</li>
+                    <li>Open Source Contributions</li>
+                    <li>Mentorship Programs</li>
+                    <li>Industry Networking Events</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tech Courses Page -->
+    <div class="courses-page" id="techCoursesPage">
+        <a href="#" class="back-btn" id="backFromTech"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        <h2 class="section-title">Tech Courses</h2>
+        
+        <div class="courses-grid">
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/web development image.jpg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title"> Full-Stack Web Development</h3>
+                    <p class="course-card-desc">Learn to build responsive websites and web applications using HTML, CSS, JavaScript, and modern frameworks.</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/artificial intelligence image.jpeg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Artificial intelligence</h3>
+                    <p class="course-card-desc">Master data analysis, visualization, and machine learning techniques with Python and R.</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/cybersecurity image.jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Cyber Security</h3>
+                    <p class="course-card-desc">Learn to protect systems and networks from digital attacks and vulnerabilities.</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/AI Chatbots creation image.jpeg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">AI ChatBot Creation</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nemo! Consectetur harum similique exercitationem? Minus.</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/app development image.jpg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">App Development</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, reiciendis natus quo dolores asperiores accusantium?</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Data Analysis  image.jpg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Data Analysis</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eligendi numquam, iusto aspernatur tempora voluptate.</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/WordPress Development image.jpeg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">WordPress Development Course</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, nam cumque reprehenderit sunt aut dolore.</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Back-End  web dev.jpg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Back-End Web Development</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ea soluta aliquam doloribus placeat excepturi.</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/front end web dev image.jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Front-End Web Developer</h3>
+                    <p class="course-card-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos dolorem enim sed voluptatibus reiciendis harum.</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+             <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/python programming image.jpeg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Python Programming</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure itaque sed minus, ipsa nihil modi.</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Data Analysis  image.jpg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Data Analysis</h3>
+                    <p class="course-card-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis deserunt, ipsam iste inventore cumque?.</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/UI-UX image.jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Product Design</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ducimus voluptate aperiam eligendi repellendus soluta?.</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+             <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/SEO image.jpeg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Search Engine Optimisation</h3>
+                    <p class="course-card-desc">Learn to build responsive websites and web applications using HTML, CSS, JavaScript, and modern frameworks.</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/app development image.jpg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">App Development</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur beatae totam exercitationem, error quo sunt.</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/AI Chatbots creation image.jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">AI ChatBot Creation</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repellat nihil illo cupiditate provident suscipit.</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Non-Tech Courses Page -->
+    <div class="courses-page" id="nonTechCoursesPage">
+        <a href="#" class="back-btn" id="backFromNonTech"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        <h2 class="section-title">Non-Tech Courses</h2>
+        
+        <div class="courses-grid">
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Digital marketing image.jpeg" class="img-fluid" alt="Digital Marketing">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Digital Marketing</h3>
+                    <p class="course-card-desc">Learn SEO, social media marketing, content strategy, and analytics to drive business growth.</p>
+                    <button class="btn register-btn" data-course="Digital Marketing">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Project management image.jpg" class="img-fluid" alt="Project Management">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Project Management</h3>
+                    <p class="course-card-desc">Develop skills to initiate, plan, execute, and close projects successfully.</p>
+                    <button class="btn register-btn" data-course="Project Management">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/UI-UX image.jpeg" class="img-fluid" alt="UI/UX Design">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">UI/UX Design</h3>
+                    <p class="course-card-desc">Learn user research, wireframing, prototyping, and design systems to create user-friendly interfaces.</p>
+                    <button class="btn register-btn" data-course="UI/UX Design">Register</button>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/content creation image.jpg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Content Creation</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestiae dolore deserunt suscipit? Porro, mollitia..</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/creative Writing image.jpg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Creative Writing</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga saepe repellendus, neque ipsa veniam.</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Email marketing image.jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Email Marketing</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusamus iste qui voluptates doloremque quidem?</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+             <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Excel image.jpeg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Exel Course</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, eaque tempore eos sint sit libero?</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/film making image.jpeg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Film Making</h3>
+                    <p class="course-card-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore velit rem numquam, molestias ullam nesciunt.</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Illustrator image.jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Adobe Illustrator Course</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ex vitae officiis praesentium aspernatur laborum.</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+             <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Motion design image.jpeg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Motion Design</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates tempora dignissimos necessitatibus, recusandae assumenda dolores?</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/photography image2.jpeg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">photography Course</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eos facere tempora reprehenderit alias laborum.</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/photoshop image(laptop graphic design).jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title"> photoshop Course</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae doloribus, odit impedit cum dignissimos quod.</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Social Media management  image2.jpg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Social Media Management</h3>
+                    <p class="course-card-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi error repellendus, eveniet non libero in?</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/stock trading image.jpeg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Stock Trading Course</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis voluptatem, assumenda cum velit voluptate dicta?</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/video editing image.jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Video Editing Course</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo obcaecati eaque, quasi quidem earum perferendis!</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Social Media management  image2.jpg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Social Media Management</h3>
+                    <p class="course-card-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi error repellendus, eveniet non libero in?</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/stock trading image.jpeg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Stock Trading Course</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis voluptatem, assumenda cum velit voluptate dicta?</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/videography.jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Videography Course</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo obcaecati eaque, quasi quidem earum perferendis!</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/pixellab image SGD.jpeg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">SmartPhone Graphic Design Course (pixellab)</h3>
+                    <p class="course-card-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi error repellendus, eveniet non libero in?</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/film making image2.jpeg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title"> Advanced Film Making course</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis voluptatem, assumenda cum velit voluptate dicta?</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/lightroom image SGD.jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">SmartPhone Graphic Design Course (lightroom)</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo obcaecati eaque, quasi quidem earum perferendis!</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Social media management.jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Social Media Management Course 2</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo obcaecati eaque, quasi quidem earum perferendis!</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+
+             <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/content creation image.jpg" class="img-fluid" alt="Web Development">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Content Creation</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestiae dolore deserunt suscipit? Porro, mollitia..</p>
+                    <button class="btn register-btn" data-course="Web Development">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/creative Writing image.jpg" class="img-fluid" alt="Data Science">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Creative Writing</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga saepe repellendus, neque ipsa veniam.</p>
+                    <button class="btn register-btn" data-course="Data Science">Register</button>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-card-img">
+                    <img src="../Images/Email marketing image.jpeg" class="img-fluid" alt="Cyber Security">
+                </div>
+                <div class="course-card-content">
+                    <h3 class="course-card-title">Email Marketing</h3>
+                    <p class="course-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusamus iste qui voluptates doloremque quidem?</p>
+                    <button class="btn register-btn" data-course="Cyber Security">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration Form Modal -->
+    <div class="registration-modal" id="registrationModal">
+        <div class="registration-form">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <h2 class="form-title">Course Registration</h2>
+            <form id="courseForm">
+                <div class="form-group">
+                    <label for="fullName">Full Name *</label>
+                    <input type="text" id="fullName" name="fullName" class="form-control" required>
+                    <div class="invalid-feedback">Please enter your full name</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                    <div class="invalid-feedback">Please enter a valid email address</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" class="form-control" required>
+                    <div class="invalid-feedback">Please enter your phone number</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="course">Selected Course *</label>
+                    <input type="text" id="selectedCourse" name="selectedCourse" class="form-control" readonly>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Additional Information</label>
+                    <textarea id="message" name="message" class="form-control" placeholder="Any specific questions or requirements?"></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Submit Registration</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="dashboard" id="dashboard">
+        <div class="dashboard-content">
+            <div class="dashboard-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2 class="dashboard-title">Registration Successful!</h2>
+            <p class="dashboard-text">Thank you for registering for our course. We've sent a confirmation email to your inbox. Our team will contact you shortly with further details.</p>
+            <a href="#" class="btn" id="backToHome">Back to Home</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Connect With Us</h3>
+                <ul class="footer-links">
+                    <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-blog"></i> Blog</a></li>
+                    <li><a href="#"><i class="fas fa-video"></i> Webinars</a></li>
+                    <li><a href="#"><i class="fas fa-book"></i> Tutorials</a></li>
+                    <li><a href="#"><i class="fas fa-file-alt"></i> Documentation</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-envelope"></i>   Email: info@edutribe.com</li>
+                    <li><i class="fas fa-phone"></i>   Phone: 08108504390</li>
+                    <li><i class="fas fa-map-marker-alt"></i>   Address: 123 Education Street, EduTribe</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 EduTribe. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="../JAVASCRIPT/main.js"></script>
+</body>
+</html>
